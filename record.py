@@ -1,8 +1,8 @@
 from linepy import *
 from datetime import datetime
 import time, random, sys, json, codecs, threading, string, os, requests, timeit, _thread
-token = input("login token :EJ7t1Z9ZxSSA92btAJDf.LXirZRNx1Mo0z6/f+Ip/tW.9fONBidOPSSAjThUqdFTX19gyD7GeIa0hKU0vhr98CE=")
-cl = LINE(token)
+token = input("login token :")
+cl = LINE(EJ7t1Z9ZxSSA92btAJDf.LXirZRNx1Mo0z6/f+Ip/tW.9fONBidOPSSAjThUqdFTX19gyD7GeIa0hKU0vhr98CE=)
 print(cl.authToken)
 wait = {"chatroom":"u992a6e77041a772b8abd613ea64d4623"}
 def detectchat():      #--------talk record will be saved in www folder and save as a txt, and pictures will be saved in tmp folder
